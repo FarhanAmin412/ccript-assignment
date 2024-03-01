@@ -11,6 +11,13 @@ npm install
 ```
 
 ## Usage
+
+## Start Application
+After Installation of all necessary dependencies. We write Following command with:
+```
+npm start
+```
+
 To test the APIs you've created, you can use tools like Postman or Curl. Here's how you can test each type of API endpoint:
 
 ## GET ``/api/users``
@@ -19,15 +26,18 @@ Using ``Postman:``
 2. Set the request type to GET.
 3. Enter the URL http://localhost:5000/api/users.
 4. Click the Send button to make the request.
-```
-import foobar
+
 # Filtering: By Name
+```
 http://localhost:5000/api/users?name=user1
-
+```
 # Pagination: By Page and PageSize
+```
 http://localhost:5000/api/users?page=2&pageSize=20
+```
 
-# Sortiing: By Property and Order 'ASC or DESC'
+# Sorting: By Property and Order 'ASC or DESC'
+```
 http://localhost:5000/api/users?sortBy=age&sortOrder=desc
 ```
 
